@@ -1,11 +1,13 @@
 import About from "./components/About";
 import Hero from "./components/Hero";
 import LenisWrapper from "./components/LenisWraper";
+import MyTechnologies from "./components/MyTechnologies";
+import RecentProjects from "./components/RecentProjects";
  
 import Testimonial from "./components/Testimonial";
 import TextMarquee from "./components/TextMarquee";
  
-import WorkExperience from "./components/WorkExperience";
+ 
  
 
 function App() {
@@ -15,8 +17,8 @@ function App() {
         <Hero />
         <TextMarquee />
         <About />
- 
-        <WorkExperience />
+        <MyTechnologies></MyTechnologies>
+        <RecentProjects></RecentProjects>
         <Testimonial />
  
       </LenisWrapper>

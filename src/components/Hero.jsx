@@ -40,7 +40,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="bg-black">
+    <div className="">
       <div className=" p-2 md:mt-20 lg:max-w-[1100px] mx-auto flex flex-col-reverse items-center md:flex-row justify-between h-full">
         {/* Left Column */}
         <div className="flex text-white flex-col justify-center items-start w-full md:w-[45%] ">

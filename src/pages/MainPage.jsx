@@ -10,7 +10,7 @@ function MainPage() {
   };
 
   return (
-    <div className="main-section bg-black border-b border-gray-300 fixed top-0 left-0 w-full z-50">
+    <div className="main-section border-b border-gray-300 fixed top-0 left-0 w-full z-50">
       <nav
         id="menu-navbar"
         className="lg:max-w-[1100px] mx-auto text-white flex justify-between items-center py-6"
