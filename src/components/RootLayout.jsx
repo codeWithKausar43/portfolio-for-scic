@@ -1,8 +1,6 @@
 import { Outlet, ScrollRestoration } from "react-router-dom";
 import MainPage from "../pages/MainPage";
-import Footer from "./Footer";
-
-
+ 
 export default function RootLayout() {
   return (
    <>
@@ -14,9 +12,6 @@ export default function RootLayout() {
     </div>
     <div>
         <Outlet/>
-    </div>
-    <div>
-        <Footer/>
     </div>
    </>
   )

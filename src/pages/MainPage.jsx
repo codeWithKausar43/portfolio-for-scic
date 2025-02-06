@@ -27,12 +27,15 @@ function MainPage() {
           <Link to={"/"} className="hover:text-gray-400 text-sm">
             Home
           </Link>
-          <Link to={"/projects"} className="hover:text-gray-400 text-sm">
-            Work
-          </Link>
-          <a href="#about" className="hover:text-gray-400 text-sm">
+          <Link to={"#about"} className="hover:text-gray-400 text-sm">
             About
-          </a>
+          </Link>
+          <Link to={"myTechnologies"} className="hover:text-gray-400 text-sm">
+            Tech Stack
+          </Link>
+          <Link to={"#projects"} className="hover:text-gray-400 text-sm">
+            Projects
+          </Link>
           <Button
             text="Contact"
             bg="bg-[#00e676]"
@@ -65,12 +68,12 @@ function MainPage() {
               <Link to={"/"} className="hover:text-gray-400">
                 Home
               </Link>
-              <Link to={"/projects"} className="hover:text-gray-400">
-                Work
+              <Link to={"/myTechnologies"} className="hover:text-gray-400 text-sm">
+            Tech Stack
+          </Link>
+              <Link to={""} className="hover:text-gray-400">
+                Tech Stack
               </Link>
-              <a href="#about" className="hover:text-gray-400">
-                About
-              </a>
               <a
                 href="#contact"
                 className="bg-transparent border border-white rounded-md px-4 py-2 hover:bg-white w-fit hover:text-black transition duration-300"

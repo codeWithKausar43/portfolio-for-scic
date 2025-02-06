@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
  
 const RecentProjects = () => {
   return (
-    <div className="my-20">
+    <div id="projects" className="my-20">
       <h3 className="text-2xl text-center mb-20">My Recent Project</h3>
       <div className="flex gap-12 mt-20">
         <div className="w-1/2">

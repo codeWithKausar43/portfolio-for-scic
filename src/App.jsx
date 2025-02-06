@@ -1,13 +1,13 @@
 import About from "./components/About";
+import Connect from "./components/Connect";
+import Footer from "./components/Footer";
+
 import Hero from "./components/Hero";
 import LenisWrapper from "./components/LenisWraper";
 import MyTechnologies from "./components/MyTechnologies";
 import RecentProjects from "./components/RecentProjects";
- 
+
 import TextMarquee from "./components/TextMarquee";
- 
- 
- 
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
         <About />
         <MyTechnologies></MyTechnologies>
         <RecentProjects></RecentProjects>
-     
- 
+        <Connect></Connect>
+        <Footer></Footer>
       </LenisWrapper>
     </div>
   );

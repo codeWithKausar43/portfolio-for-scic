@@ -14,7 +14,7 @@ import vscode from "../assets/images/vscode.png";
 
 const MyTechnologies = () => {
   return (
-    <div className=" mp-12">
+    <div id="myTechnologies" className="mt-12">
       <div className="lg:max-w-[1100px] mx-auto">
         <div className="text-center">
           <h3 className="text-2xl font-bold mb-2">My Tech Stack</h3>

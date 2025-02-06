@@ -4,7 +4,9 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import RootLayout from './components/RootLayout.jsx'
-import Projects from './components/Projects.jsx'
+
+import MyTechnologies from './components/MyTechnologies.jsx'
+import RecentProjects from './components/RecentProjects.jsx'
 const router = createBrowserRouter([
   {
     path:'/',
@@ -15,8 +17,13 @@ const router = createBrowserRouter([
         element: <App/>,
       },
       {
+        path:'/myTechnologies',
+        element:<MyTechnologies></MyTechnologies>
+    
+      },
+      {
         path:'/projects',
-        element:<Projects/>
+        element:<RecentProjects></RecentProjects>
     
       }
     ]
