@@ -10,7 +10,7 @@ function MainPage() {
   };
 
   return (
-    <div className="main-section border-b border-gray-300 fixed top-0 left-0 w-full z-50">
+    <div className="main-section bg-gradient-to-b from-[#122E43]  to-[#122E43] bg-opacity-50 shadow-xl  border-b border-white fixed top-0 left-0 w-full z-50">
       <nav
         id="menu-navbar"
         className="lg:max-w-[1100px] mx-auto text-white flex justify-between items-center py-6"
@@ -36,12 +36,14 @@ function MainPage() {
           <Link to={"#projects"} className="hover:text-gray-400 text-sm">
             Projects
           </Link>
+          <Link to="https://drive.google.com/file/d/1yNnaKFAjmfMIwXY4Q0fOOA_0_DvCg-KF/view?usp=sharing" target="_blank">
           <Button
-            text="Contact"
+            text="Resume"
             bg="bg-[#00e676]"
             size="px-6 py-2"
             textColor="text-white"
           />
+          </Link>
         </div>
 
         <button onClick={toggleMenu} className="md:hidden focus:outline-none">
@@ -58,6 +60,7 @@ function MainPage() {
               strokeWidth="2"
               d="M4 6h16M4 12h16m-7 6h7"
             />
+
           </svg>
         </button>
 
@@ -71,15 +74,16 @@ function MainPage() {
               <Link to={"/myTechnologies"} className="hover:text-gray-400 text-sm">
             Tech Stack
           </Link>
-              <Link to={""} className="hover:text-gray-400">
-                Tech Stack
-              </Link>
-              <a
+          <Link to="https://drive.google.com/file/d/1yNnaKFAjmfMIwXY4Q0fOOA_0_DvCg-KF/view?usp=sharing">
+          
+          <a
                 href="#contact"
                 className="bg-transparent border border-white rounded-md px-4 py-2 hover:bg-white w-fit hover:text-black transition duration-300"
               >
-                Contact
+              Download Resume
               </a>
+          </Link>
+
             </div>
           </div>
         )}

@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { FaDownload, FaGithub } from "react-icons/fa";
+import { FaDownload, FaFacebook, FaGithub, FaLinkedin, FaLinkedinIn } from "react-icons/fa";
 
 import bgImage from "../assets/images/hero-bg.png";
 import profile from "../assets/images/myRemove.png";
@@ -80,28 +80,37 @@ const Hero = () => {
 
           {/* Download CV Button and Icons */}
           <div className="flex items-center space-x-4 mb-6">
-            <a href="/mohd-cv.pdf" download={"Mohd CV"}>
+            <a href="https://drive.google.com/file/d/1yNnaKFAjmfMIwXY4Q0fOOA_0_DvCg-KF/view?usp=sharing" target="_black" download={"Kausar"}>
               <Button
                 text={"Download CV"}
                 bg={"bg-[#4ade80]"}
                 icon={<FaDownload />}
               />
             </a>
-            <a
-              href="https://www.upwork.com/freelancers/~01a797d06a0b82196d"
-              target="_blank"
-            >
-              <Button
-                bg={"bg-[#00e676]"}
-                size="p-3"
-                text={<FaUpwork className="w-4 h-4" />}
-              />
-            </a>
-            <a href="https://github.com/moh-158" target="_blank">
+             
+            <a href="https://github.com/codeWithKausar43" target="_blank">
               <Button
                 bg={"bg-[#4ade80]"}
                 size="p-3"
                 text={<FaGithub className="w-4 h-4" />}
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/md-kausar3/" target="_blank">
+              <Button
+                bg={"bg-[#4ade80]"}
+                size="p-3"
+                text={
+                  <FaLinkedin  className="w-4 h-4" />
+                }
+              />
+            </a>
+            <a href="https://www.facebook.com/mdkausar.ahammed.925" target="_blank">
+              <Button
+                bg={"bg-[#4ade80]"}
+                size="p-3"
+                text={
+                  <FaFacebook className="w-4 h-4"  />
+                }
               />
             </a>
           </div>
@@ -132,7 +141,7 @@ const Hero = () => {
             <img
               src={profile}
               alt="Profile"
-              className="object-cover md:h-[400px] border w-60 md:w-full border-red-200 rounded-lg"
+              className="object-cover md:h-[400px] border w-60 md:w-full rounded-lg"
             />
           </motion.div>
         </div>

@@ -4,10 +4,10 @@ import { IoMdMailOpen } from "react-icons/io";
 
 const Connect = () => {
   return (
-    <div>
+    <div className="px-3">
       <h3 className="text-2xl font-bold text-center mb-12">Connect With Me</h3>
-      <div className="md:flex items-center border rounded-xl px-12 py-6 ">
-        <div className="w-1/2  space-y-3">
+      <div className="md:flex items-center border rounded-xl md:px-12 px-6 py-6 ">
+        <div className="md:w-1/2  space-y-3">
           <h3 className="text-2xl font-bold mb-4">Let`s Work Together!</h3>
           <p>
             I design and code beautifully simple things and i love what i do.
@@ -23,7 +23,7 @@ const Connect = () => {
             <IoMdMailOpen /> kausar8497@gmail.com
           </p>
         </div>
-        <div className="w-1/2 border-l pl-6 md:ml-6">
+        <div className="md:w-1/2 hidden-border-l  md:pl-6 md:ml-6">
         <label>Name: </label>
         <input className="w-full mb-2 h-10 mt-2 pl-3 rounded-md" placeholder="Your Name" type="text" />
         <label>Email: </label>

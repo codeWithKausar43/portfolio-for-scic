@@ -14,13 +14,13 @@ import vscode from "../assets/images/vscode.png";
 
 const MyTechnologies = () => {
   return (
-    <div id="myTechnologies" className="mt-12">
+    <div id="myTechnologies" className="mt-12 px-12 md:px-0">
       <div className="lg:max-w-[1100px] mx-auto">
         <div className="text-center">
           <h3 className="text-2xl font-bold mb-2">My Tech Stack</h3>
           <p className="text-lg">Technologies ive been working with recently</p>
         </div>
-        <div className="grid grid-cols-6 md:gap-20 text-center mt-12">
+        <div className="grid lg:grid-cols-6 md:grid-cols-4 grid-cols-2 gap-20  text-center mt-12">
           <motion.div
             className="border text-center flex items-center justify-center p-6 rounded-lg border-indigo-300"
             whileHover={{ scale: 1.1 }}

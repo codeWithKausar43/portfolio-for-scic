@@ -18,3 +18,18 @@ body {
     /* min-height: 500px; */
     margin-right: 10px;
 }
+
+.image-container {
+    overflow: hidden;
+    height: 240px; 
+    width: 100%;
+  }
+  
+  .image-container img {
+    transition: transform 1s ease;
+    height: 1400px;
+  }
+  
+  .image-container:hover img {
+    transform: translateY(-80%); 
+  }
